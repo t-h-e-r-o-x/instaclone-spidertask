@@ -1,0 +1,32 @@
+.Img{
+  display:flex;
+  margin:75px;
+  background:rgba(0,0,0,1);
+  cursor:pointer;
+  border-radius: 10%;
+  transition: all 0.5s;
+}
+
+.Img:active{
+  transform:scale3d(1.2,1.2,1.2);
+}
+
+.Img:hover {
+  border:1px solid white;
+}
+
+.Img_intro{
+  padding:2rem;
+}
+
+.Img_profile_pic{
+  width: 45px;
+  border-radius: 50%;
+}
+
+.Img_pic{
+  flex: 1 1 0;
+  border-radius: 10%;
+  width:500px;
+  height:500px;
+}

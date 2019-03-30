@@ -1,0 +1,25 @@
+.Img_card{
+  display: flex;
+  margin:30px;
+  flex-direction:column;
+  height: 100%;
+  width: 100%;
+  background:rgba(0,0,0,1);
+  cursor:pointer;
+  z-index: 1;
+  color: red;
+}
+
+.Img_infoo{
+  padding:2rem;
+}
+
+.Img_profile_picc{
+  width: 45px;
+  border-radius: 50%;
+}
+
+.Img_picc{
+  flex: 1 1 0;
+
+}
